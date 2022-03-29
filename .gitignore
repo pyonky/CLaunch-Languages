@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio
+*.aps
+*.user
+
+# Folders
+_output/
+.vs/
+Win32/
+x64/
