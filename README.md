@@ -31,6 +31,23 @@ Also IDC_ST_URL_TR should be modified to URL of your website, and IDC_ST_EMAIL_T
 
 - if you make the document in your language, put the document file to the Docs folder and modify the IDS_DOCUMENT_FILE to the document file name.
 
+## Translation collaborators
+
+- Simplified Chinese  
+Translated by th_sjy	( http://www.th-sjy.com )
+
+- Traditional Chinese  
+Translated by undecV, SongJim	( https://github.com/undecV/CLaunch_ZH-TW )
+
+- Korean  
+Translated by Miyuki Rose
+
+- Russian  
+Translated by wvxwxvw	( https://github.com/wvxwxvw/translation )
+
+- Spanish  
+Translated by Leonel Mira
+
 <br/>
 
 ------------------------------------------------------------
