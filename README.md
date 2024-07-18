@@ -53,7 +53,7 @@ Translated by Leonel Mira
 ------------------------------------------------------------
 
 Author : Pyonkichi  
-Website : https://hp.vector.co.jp/authors/VA018351/en/ (Mirror : https://ss1.xrea.com/pyonkichi.g1.xrea.com/en/)  
+Website : https://ss1.xrea.com/pyonkichi.g1.xrea.com/en/  
 E-mail : pyonky_claunch@yahoo.co.jp
 
 ------------------------------------------------------------
