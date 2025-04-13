@@ -46,7 +46,7 @@ Translated by Miyuki Rose
 Translated by wvxwxvw	( https://github.com/wvxwxvw/translation )
 
 - Spanish  
-Translated by Leonel Mira
+Translated by Leonel Mira	( https://github.com/leox23 )
 
 <br/>
 
