@@ -2,7 +2,12 @@
 
 ## Overview
 
-You can create a CLaunch language module for your language.
+This repository contains language modules for CLaunch.
+
+You can:
+- Update an existing language module
+- Create a new language module
+
 
 ## Development Environment
 
@@ -12,48 +17,85 @@ For non-commercial use, the **Visual Studio Community Edition** can be used free
 
 Download: &nbsp; https://visualstudio.microsoft.com/downloads/
 
-## How to create
 
-1. Copy the *English* folder and change the folder name to your language name.
-2. Rename the *English.rc* and *English.vcxproj* files in the copied folder to your language name.
-3. Open **YourLanguageName.vcxproj** in a text editor and replace the word *English* with your language name.
-4. Open *CLaunch-Languages.sln* with the Visual Studio.
-5. Select *File* -> *Add* -> *Existing Project* from the menu and select **YourLanguageName.vcxproj** in the copied folder.
-6. Translate the **YourLanguageName.rc** into your language.
-7. Select the *Configuration* to *Release*, select the *Platform* to *x86* or *x64* and build.
-8. **YourLanguageName.dll** will be created under *_output* folder (Win32 or x64).
+## Updating an existing language
 
-## How to use
+1. Open **CLaunch-Languages.sln** in Visual Studio.
+2. Select the **Resource View** tab (usually located in the bottom-left panel).
+3. Expand the target language (for example, **Chinese**) in the Resource View.
+4. Open each resource (Dialog, Menu, String Table) and edit the text in the resource editor.
+5. Build the project if you want to test your changes. See **Build** section below.
 
-- Copy the created DLL file to "CLaunch\Languages" folder and select "Languages..." from main menu. Your language name will appear on the "Choose language" dialog box.
+
+## Creating a new language
+
+1. Copy the **English** folder and rename it to your language name.
+2. Rename **English.rc** and **English.vcxproj** to your language name.
+3. Open the renamed **YourLanguageName.vcxproj** in a text editor and replace **English** with your language name.
+4. Open **CLaunch-Languages.sln** in Visual Studio.
+5. Select *File* -> *Add* -> *Existing Project...* and add **YourLanguageName.vcxproj**.
+6. Select the **Resource View** tab (usually located in the bottom-left panel).
+7. Expand **YourLanguageName** and open each resource (Dialog, Menu, String Table) in the Resource View.
+8. Edit and translate the text in the resource editor.
+9. Build the project if you want to test your changes. See **Build** section below.
+
+
+## Build
+
+1. Select the build configuration and platform from the toolbar:
+   - Configuration: **Release**
+   - Platform: **x86** or **x64**
+
+2. From the **Build** menu, choose one of the following:
+
+   - **Build Solution**  
+     Builds all language modules included in the solution.
+
+   - **Build (LanguageName)**  
+     Builds only the selected language module (the one currently selected in Resource View).
+
+   The output DLL file will be created in the **_output** folder.
+
+## Using a language module
+
+1. Copy the created DLL file to **CLaunch\Languages** folder.
+2. Select **Languages...** from the main menu.
+3. Choose your language from the list.
+
 
 ## Notes
 
-- IDS_VERSION must be changed to latest version number. (Don't change only version number.)
+- **IDS_VERSION** must match the latest version. (Do not change only the number.)
 
-- Don't remove the placeholders like "%d" and "%s".
+- Do not remove placeholders such as **%d** or **%s**.
 
-- Put your name into lower group box of the *About* dialog box as a translator.
-Also IDC_ST_URL_TR should be modified to URL of your website, and IDC_ST_EMAIL_TR should be your e-mail address. But if you don't have a website or you don't want to receive the e-mail, they can be blank or removed.
+- Add your name in the *About* dialog as a translator.  
+  You can also set:
+  - **IDC_ST_URL_TR** (your website)
+  - **IDC_ST_EMAIL_TR** (your email)  
+  These can be left blank if not needed.
 
-- if you make the document in your language, put the document file to the Docs folder and modify the IDS_DOCUMENT_FILE to the document file name.
+- If you provide documentation in your language:
+  - Place it in the **Docs** folder
+  - Update **IDS_DOCUMENT_FILE**
+
 
 ## Translation collaborators
 
 - Simplified Chinese  
-Translated by th_sjy &nbsp; ( http://www.th-sjy.com )
+  Translated by th_sjy &nbsp; ( http://www.th-sjy.com )
 
 - Traditional Chinese  
-Translated by undecV, SongJim &nbsp; ( https://github.com/undecV/CLaunch_ZH-TW )
+  Translated by undecV, SongJim &nbsp; ( https://github.com/undecV/CLaunch_ZH-TW )
 
 - Korean  
-Translated by Miyuki Rose
+  Translated by Miyuki Rose
 
 - Russian  
-Translated by wvxwxvw &nbsp; ( https://github.com/wvxwxvw/translation )
+  Translated by wvxwxvw &nbsp; ( https://github.com/wvxwxvw/translation )
 
 - Spanish  
-Translated by Leonel Mira &nbsp; ( https://github.com/leox23 )
+  Translated by Leonel Mira &nbsp; ( https://github.com/leox23 )
 
 <br/>
 
