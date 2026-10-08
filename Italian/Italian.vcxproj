@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>English</ProjectName>
+    <ProjectName>Italian</ProjectName>
     <ProjectGuid>{A7688D31-8192-4B12-B983-F8996E9111B1}</ProjectGuid>
-    <RootNamespace>English</RootNamespace>
+    <RootNamespace>Italian</RootNamespace>
     <SccProjectName>
     </SccProjectName>
     <SccAuxPath>
@@ -187,7 +187,7 @@
     <ClInclude Include="..\resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="English.rc" />
+    <ResourceCompile Include="Italian.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

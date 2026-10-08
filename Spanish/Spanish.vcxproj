@@ -181,13 +181,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ResourceCompile Include="Spanish.rc" />
+    <ClCompile Include="..\Language.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Language.cpp" />
+    <ResourceCompile Include="Spanish.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

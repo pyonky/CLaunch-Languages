@@ -1,0 +1,13 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Chinese/Chinese.vcxproj" Id="9beedacd-07fe-4e60-9bb4-72b2f4c0794f" />
+  <Project Path="Chinese_t/Chinese_t.vcxproj" Id="a72c87b9-5830-4e24-97be-50b96faf8277" />
+  <Project Path="English/English.vcxproj" Id="a7688d31-8192-4b12-b983-f8996e9111b1" />
+  <Project Path="Italian/Italian.vcxproj" Id="975d441c-0864-4054-b59f-bdd7465f65ca" />
+  <Project Path="Korean/Korean.vcxproj" Id="9fb33d67-07db-4780-9c0a-96b99f38a765" />
+  <Project Path="Russian/Russian.vcxproj" Id="c20d52b8-9231-4a04-aa49-590dfa5f35b2" />
+  <Project Path="Spanish/Spanish.vcxproj" Id="da131002-5dad-4f2a-b084-0af0ae838062" />
+</Solution>

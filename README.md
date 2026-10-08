@@ -97,12 +97,16 @@ Download: &nbsp; https://visualstudio.microsoft.com/downloads/
 - Spanish  
   Translated by Leonel Mira &nbsp; ( https://github.com/leox23 )
 
+- Italian  
+  Translated by Anonymous
+
 <br/>
 
 ------------------------------------------------------------
 
 Author : Pyonkichi  
 Website : https://ss1.xrea.com/pyonkichi.g1.xrea.com/en/  
+&emsp; &emsp; &emsp; &nbsp; http://pyonkichi.g1.xrea.com/  
 E-mail : pyonky_claunch@yahoo.co.jp
 
 ------------------------------------------------------------
